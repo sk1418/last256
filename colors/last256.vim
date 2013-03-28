@@ -1,6 +1,6 @@
-" File:       kycolor.vim
+" File:       last256.vim
 " Maintainer: Kai Yuan
-" URL:        https://github.com/sk1418/kycolor
+" URL:        https://github.com/sk1418/last256
 "      __               __     ___   ___________
 "     / /   ____ ______/ /_   |__ \ / ____/ ___/
 "    / /   / __ `/ ___/ __/   __/ //___ \/ __ \ 
