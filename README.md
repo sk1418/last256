@@ -13,10 +13,8 @@ last256 is a dark vim color-scheme, it was created based on
 [vim-hybrid](https://github.com/w0ng/vim-hybrid).
 
 - Xresource color supports was removed
-- Some colors/highlightings was changed, e.g. visual selection, cursorLine, background
-(`Normal`) ...
-- Some hi-groups were added: `FIXME`, `Important`, `MK1`, `MK2`,
-  `MK3`:(screenshot see below section)
+- Some colors/highlightings were changed, e.g. visual selection, cursorLine, background (`Normal`) ...
+- Some hi-groups were added: `FIXME`, `Important`, `MK1`, `MK2`, `MK3`:(screenshot see below section)
 
 		autocmd BufWinEnter * call matchadd("Important","!Important!")
 		autocmd BufWinEnter * call matchadd("MK1","!MARK1")
