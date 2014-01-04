@@ -78,7 +78,7 @@ if has("gui_running")
   "let s:foreground = "#bcbcbc"
 	let s:foreground = "#839496"
   let s:selection  = "#585858"
-  let s:visual     = "#87875f"
+  let s:visual     = "#5f8787"
   let s:line       = "#262626"
   let s:comment    = "#586e75"
   let s:red        = "#d75f5f"
@@ -100,7 +100,7 @@ else
   let s:brown      = "101"    
   let s:foreground = "244"
   let s:selection  = "240"
-  let s:visual     = "101"
+  let s:visual     = "66"
   let s:line       = "235"
   let s:comment    = "239"
   let s:red        = "167"
@@ -253,8 +253,8 @@ exe "hi! MatchParen"    .s:fg_background  .s:bg_changebg    .s:fmt_none
 exe "hi! MoreMsg"       .s:fg_green       .s:bg_none        .s:fmt_bold
 exe "hi! NonText"       .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! Pmenu"         .s:fg_foreground  .s:bg_selection   .s:fmt_none
-exe "hi! PmenuSel"      .s:fg_background  .s:bg_green   .s:fmt_none
-"		PmenuSbar"
+exe "hi! PmenuSel"      .s:fg_background  .s:bg_visual   .s:fmt_none
+"		PmenuSbar" 
 "		PmenuThumb"
 exe "hi! Question"      .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! Search"        .s:fg_background  .s:bg_yellow      .s:fmt_none
