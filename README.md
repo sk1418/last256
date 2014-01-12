@@ -31,44 +31,29 @@ last256 is a dark vim color-scheme, it was created based on
 
 for a colorscheme readme, **screenshots** might be the most important section:
 
-**All screenshots were taken from terminal vim 7.3 with tmux under urxvt**
+**All screenshots were taken from terminal vim 7.4 with tmux under urxvt**
 
-###new `hi-groups`:
+**new `hi-groups`**
+
 ![hi-groups](https://raw.github.com/sk1418/sharedResources/master/last256/last256-higroups.png)
 
-###Vimscript:
-![Vimscript](https://raw.github.com/sk1418/sharedResources/master/last256/last256-vim.png)
+**Python**
+![python](https://raw.github.com/sk1418/sharedResources/master/last256/last256-python_new.png)
 
-###VimHelp:
-![VimHelp](https://raw.github.com/sk1418/sharedResources/master/last256/last256-vimhelp.png)
+**under Solarized terminal color scheme**
 
-###python:
-![python](https://raw.github.com/sk1418/sharedResources/master/last256/last256-python.png)
 
-###Java:
-![java](https://raw.github.com/sk1418/sharedResources/master/last256/last256-java.png)
+**Java**
+![java](https://raw.github.com/sk1418/sharedResources/master/last256/last256-java-new.png)
 
-###Ruby:
-![ruby](https://raw.github.com/sk1418/sharedResources/master/last256/last256-ruby.png)
+**xml**
+![xml](https://raw.github.com/sk1418/sharedResources/master/last256/last256-xml-new.png)
 
-###Shell:
-![shell](https://raw.github.com/sk1418/sharedResources/master/last256/last256-shell.png)
+**tabbar and vimscript**
+![tab](https://raw.github.com/sk1418/sharedResources/master/last256/last256-tab-new.png)
 
-###xml:
-![xml](https://raw.github.com/sk1418/sharedResources/master/last256/last256-xml.png)
-
-###HTML:
-![html](https://raw.github.com/sk1418/sharedResources/master/last256/last256-html.png)
-
-###Javascript:
-![js](https://raw.github.com/sk1418/sharedResources/master/last256/last256-js.png)
-
-###Markdown:
-![md](https://raw.github.com/sk1418/sharedResources/master/last256/last256-md.png)
-
-###Diff:
-![diff](https://raw.github.com/sk1418/sharedResources/master/last256/last256-diff.png)
-
+**Diff**
+![diff](https://raw.github.com/sk1418/sharedResources/master/last256/last256-diff-new.png)
 
 
 "  vim: ft=markdown sw=2 ts=2
