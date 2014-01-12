@@ -38,21 +38,27 @@ for a colorscheme readme, **screenshots** might be the most important section:
 ![hi-groups](https://raw.github.com/sk1418/sharedResources/master/last256/last256-higroups.png)
 
 **Python**
-![python](https://raw.github.com/sk1418/sharedResources/master/last256/last256-python_new.png)
 
-**under Solarized terminal color scheme**
+![python](https://raw.github.com/sk1418/sharedResources/master/last256/last256-python-new.png)
+
+**xml**
+
+![xml](https://raw.github.com/sk1418/sharedResources/master/last256/last256-xml-new.png)
+
+**>>under Solarized terminal color scheme<<**
 
 
 **Java**
+
 ![java](https://raw.github.com/sk1418/sharedResources/master/last256/last256-java-new.png)
 
-**xml**
-![xml](https://raw.github.com/sk1418/sharedResources/master/last256/last256-xml-new.png)
 
 **tabbar and vimscript**
+
 ![tab](https://raw.github.com/sk1418/sharedResources/master/last256/last256-tab-new.png)
 
 **Diff**
+
 ![diff](https://raw.github.com/sk1418/sharedResources/master/last256/last256-diff-new.png)
 
 
