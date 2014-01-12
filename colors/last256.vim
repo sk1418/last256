@@ -265,11 +265,7 @@ exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_none        .s:fmt_undr
 exe "hi! SpellRare"     .s:fg_purple      .s:bg_none        .s:fmt_undr
 exe "hi! StatusLine"    .s:fg_background     .s:bg_brown  .s:fmt_none
 exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
-exe "hi! TabLine"       .s:fg_foreground  .s:bg_darkcolumn  .s:fmt_revr
-"		TabLineFill"
-"		TabLineSel"
-exe "hi! Title"         .s:fg_yellow      .s:bg_none        .s:fmt_none
-exe "hi! Visual"        .s:fg_background        .s:bg_visual   .s:fmt_none
+
 "		VisualNos"
 exe "hi! WarningMsg"    .s:fg_red         .s:bg_none        .s:fmt_none
 "		WildMenu"
@@ -370,6 +366,10 @@ hi! link diffAdded Special
 "		diffSubname
 "		diffComment
 
+" Tabline
+hi! link TabLineFill StatusLineNC
+hi! link TabLineSel  StatusLine 
+hi! link TabLine Pmenu
 "}}}
 
 " vim: fdm=marker:sw=2:ts=2:tw=80
