@@ -30,6 +30,17 @@
 "
 " }}}
 
+" ChangeLog: {{{
+"
+" 2014-01-12   v1.1.0
+" - adjusted many colors
+" - fit terminal if terminal has solarized color scheme
+" - add tabline colors
+" - add new screenshot (github readme.md)
+"
+" 2013-03-28   v1.0.0
+" inital release
+" }}}
 " Description:"{{{
 " ----------------------------------------------------------------------------
 "vim color scheme based on hybrid (https://github.com/w0ng/vim-hybrid)
