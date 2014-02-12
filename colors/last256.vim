@@ -78,7 +78,7 @@ let colors_name = "last256"
 " ----------------------------------------------------------------------------
 if has("gui_running")
   let s:vmode      = "gui"
-	let s:background = "#000000"
+	let s:background = "#11262b"
   let s:window     = "#5f5f5f"
   let s:darkcolumn = "#1c1c1c"
   let s:addbg      = "#5f875f"
