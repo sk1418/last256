@@ -31,44 +31,35 @@ last256 is a dark vim color-scheme, it was created based on
 
 for a colorscheme readme, **screenshots** might be the most important section:
 
-**All screenshots were taken from terminal vim 7.3 with tmux under urxvt**
+**All screenshots were taken from terminal vim 7.4 with tmux under urxvt**
 
-###new `hi-groups`:
-![hi-groups](https://lh3.googleusercontent.com/-F1OzMBdrQHA/UVRcseDSM_I/AAAAAAAAGrQ/jTaBjj71kEQ/s218/last256-higroups.png)
+**new `hi-groups`**
 
-###Vimscript:
-![Vimscript](https://lh5.googleusercontent.com/-5GBEOK5HViI/UVRqQAYiEGI/AAAAAAAAGsg/XWsSI9B2Dn4/s895/last256-vim.png)
+![hi-groups](https://raw.github.com/sk1418/sharedResources/master/last256/last256-higroups.png)
 
-###VimHelp:
-![VimHelp](https://lh3.googleusercontent.com/-ApXts2uCmD0/UVRqQA0q3UI/AAAAAAAAGsU/PnHjn9lFHrw/s871/last256-vimhelp.png)
+**Python**
 
-###python:
-![python](https://lh4.googleusercontent.com/--nyxf6DYOPI/UVRqO9cK-LI/AAAAAAAAGr8/pmoTaSUZmbQ/s853/last256-python.png)
+![python](https://raw.github.com/sk1418/sharedResources/master/last256/last256-python-new.png)
 
-###Java:
-![java](https://lh3.googleusercontent.com/-LYYN95PBTw8/UVRqN6cd0_I/AAAAAAAAGro/a7mqEQQ4SVU/s879/last256-java.png)
+**xml**
 
-###Ruby:
-![ruby](https://lh3.googleusercontent.com/-0ZYOYL26_Rg/UVRqPBwlj6I/AAAAAAAAGsA/ASQCEjsflW0/s726/last256-ruby.png)
+![xml](https://raw.github.com/sk1418/sharedResources/master/last256/last256-xml-new.png)
 
-###Shell:
-![shell](https://lh5.googleusercontent.com/-k1-q8w7j6jk/UVRqPb1H6eI/AAAAAAAAGsQ/Q0WlgOPWq4M/s1038/last256-shell.png)
-
-###xml:
-![xml](https://lh5.googleusercontent.com/-FfhFqNHez3Q/UVRqQpUeqiI/AAAAAAAAGsk/kFyJV81O08A/s882/last256-xml.png)
-
-###HTML:
-![html](https://lh5.googleusercontent.com/-THhsu8jcFIU/UVRqNts0zmI/AAAAAAAAGrc/g5aRS410BQo/s1027/last256-html.png)
-
-###Javascript:
-![js](https://lh5.googleusercontent.com/-Cmi-c2jBC8A/UVRqN4ODH1I/AAAAAAAAGrw/8NuBDuSzaa4/s750/last256-js.png)
-
-###Markdown:
-![md](https://lh5.googleusercontent.com/-aWxAYpuH5ls/UVSUm5bms7I/AAAAAAAAGs4/-f7YX8Ey65o/s735/last256-md.png)
-
-###Diff:
-![diff](https://lh6.googleusercontent.com/-DaE61lZYmUY/UVSV-4O1MYI/AAAAAAAAGtE/D3a7oJyqO-k/s843/last256-diff.png)
+**>>under Solarized terminal color scheme<<**
 
 
+**Java**
 
-vim: ft=markdown:sw=2:ts=2
+![java](https://raw.github.com/sk1418/sharedResources/master/last256/last256-java-new.png)
+
+
+**tabbar and vimscript**
+
+![tab](https://raw.github.com/sk1418/sharedResources/master/last256/last256-tab-new.png)
+
+**Diff**
+
+![diff](https://raw.github.com/sk1418/sharedResources/master/last256/last256-diff-new.png)
+
+
+"  vim: ft=markdown sw=2 ts=2

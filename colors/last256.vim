@@ -30,6 +30,17 @@
 "
 " }}}
 
+" ChangeLog: {{{
+"
+" 2014-01-12   v1.1.0
+" - adjusted many colors
+" - fit terminal if terminal has solarized color scheme
+" - add tabline colors
+" - add new screenshot (github readme.md)
+"
+" 2013-03-28   v1.0.0
+" inital release
+" }}}
 " Description:"{{{
 " ----------------------------------------------------------------------------
 "vim color scheme based on hybrid (https://github.com/w0ng/vim-hybrid)
@@ -74,11 +85,12 @@ if has("gui_running")
   let s:changebg   = "#5f5f87"
   let s:changefg   = "#d7d7ff"
   let s:brown      = "#87875f"
-  let s:foreground = "#bcbcbc"
+  "let s:foreground = "#bcbcbc"
+	let s:foreground = "#839496"
   let s:selection  = "#585858"
-  let s:visual     = "#87875f"
+  let s:visual     = "#5f8787"
   let s:line       = "#262626"
-  let s:comment    = "#878787"
+  let s:comment    = "#586e75"
   let s:red        = "#d75f5f"
   let s:orange     = "#d78700"
   let s:yellow     = "#ffd75f"
@@ -96,11 +108,11 @@ else
   let s:changebg   = "60"
   let s:changefg   = "189"
   let s:brown      = "101"    
-  let s:foreground = "250"
+  let s:foreground = "244"
   let s:selection  = "240"
-  let s:visual     = "101"
+  let s:visual     = "66"
   let s:line       = "235"
-  let s:comment    = "102"
+  let s:comment    = "239"
   let s:red        = "167"
   let s:orange     = "172"
   let s:yellow     = "221"
@@ -251,8 +263,8 @@ exe "hi! MatchParen"    .s:fg_background  .s:bg_changebg    .s:fmt_none
 exe "hi! MoreMsg"       .s:fg_green       .s:bg_none        .s:fmt_bold
 exe "hi! NonText"       .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! Pmenu"         .s:fg_foreground  .s:bg_selection   .s:fmt_none
-exe "hi! PmenuSel"      .s:fg_background  .s:bg_green   .s:fmt_none
-"		PmenuSbar"
+exe "hi! PmenuSel"      .s:fg_background  .s:bg_visual   .s:fmt_none
+"		PmenuSbar" 
 "		PmenuThumb"
 exe "hi! Question"      .s:fg_green       .s:bg_none        .s:fmt_none
 exe "hi! Search"        .s:fg_background  .s:bg_yellow      .s:fmt_none
@@ -261,13 +273,9 @@ exe "hi! SpellBad"      .s:fg_red         .s:bg_none        .s:fmt_undr
 exe "hi! SpellCap"      .s:fg_blue        .s:bg_none        .s:fmt_undr
 exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_none        .s:fmt_undr
 exe "hi! SpellRare"     .s:fg_purple      .s:bg_none        .s:fmt_undr
-exe "hi! StatusLine"    .s:fg_background     .s:bg_visual  .s:fmt_none
+exe "hi! StatusLine"    .s:fg_background     .s:bg_brown  .s:fmt_none
 exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
-exe "hi! TabLine"       .s:fg_foreground  .s:bg_darkcolumn  .s:fmt_revr
-"		TabLineFill"
-"		TabLineSel"
-exe "hi! Title"         .s:fg_yellow      .s:bg_none        .s:fmt_none
-exe "hi! Visual"        .s:fg_background        .s:bg_visual   .s:fmt_none
+
 "		VisualNos"
 exe "hi! WarningMsg"    .s:fg_red         .s:bg_none        .s:fmt_none
 "		WildMenu"
@@ -368,6 +376,10 @@ hi! link diffAdded Special
 "		diffSubname
 "		diffComment
 
+" Tabline
+hi! link TabLineFill StatusLineNC
+hi! link TabLineSel  StatusLine 
+hi! link TabLine Pmenu
 "}}}
 
 " vim: fdm=marker:sw=2:ts=2:tw=80
