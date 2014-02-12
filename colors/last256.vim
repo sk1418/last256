@@ -66,7 +66,6 @@ let colors_name = "last256"
 " GUI And Cterm Palettes:"{{{
 " ----------------------------------------------------------------------------
 if has("gui_running")
-  let s:vmode      = "gui"
   let s:background = "#000000"
   let s:window     = "#5f5f5f"
   let s:darkcolumn = "#1c1c1c"
@@ -83,10 +82,10 @@ if has("gui_running")
   let s:red        = "#d75f5f"
   let s:orange     = "#d78700"
   let s:yellow     = "#ffd75f"
-  let s:green      = "#87d75f"
+  let s:green      = "#5faf5f"
   let s:aqua       = "#87afff"
-  let s:blue       = "#5f87d7"
-  let s:purple     = "#af87ff"
+  let s:blue       = "#5f87ff"
+  let s:purple     = "#8787ff"
 else
   let s:vmode      = "cterm"
   let s:background = "16"
@@ -105,10 +104,10 @@ else
   let s:red        = "167"
   let s:orange     = "172"
   let s:yellow     = "221"
-  let s:green      = "113"
+  let s:green      = "71"
   let s:aqua       = "111"
-  let s:blue       = "68"
-  let s:purple     = "141"
+  let s:blue       = "69"
+  let s:purple     = "105"
 endif
 
 "}}}
