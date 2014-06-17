@@ -7,6 +7,8 @@ A vim 256color scheme
 	/_____/\__,_/____/\__/   /____/_____/\____/  
 	
 
+(http://www.vim.org/scripts/script.php?script_id=4489)
+
 #Introduction
 
 last256 is a dark vim color-scheme, it was created based on
