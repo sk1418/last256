@@ -8,7 +8,7 @@
 "  /_____/\__,_/____/\__/   /____/_____/\____/  
 "                                                               "
 " License: {{{
-" Copyright (c) 2013 Kai Yuan
+" Copyright (c) 2013-2016 Kai Yuan
 "
 " Permission is hereby granted, free of charge, to any per‐ son obtaining a
 " copy of this software and associated doc‐ umentation files (the “Software”),
