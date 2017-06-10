@@ -9,7 +9,7 @@ A vim 256color scheme
 
 (http://www.vim.org/scripts/script.php?script_id=4489)
 
-#Introduction
+# Introduction
 
 last256 is a dark vim color-scheme, it was created based on
 [vim-hybrid](https://github.com/w0ng/vim-hybrid).
@@ -24,12 +24,12 @@ last256 is a dark vim color-scheme, it was created based on
 		autocmd BufWinEnter * call matchadd("MK3","!MARK3")
 		autocmd BufWinEnter * call matchadd("FIXME","FIXME")
 
-#Requirements
+# Requirements
 
 - gvim7.3 (linux, windows and Mac)
 - vim7.3 on Terminal, a 256 color enabled terminal is required
 
-#Screenshots
+# Screenshots
 
 for a colorscheme readme, **screenshots** might be the most important section:
 
