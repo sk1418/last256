@@ -76,7 +76,8 @@ let colors_name = "last256"
 "}}}
 " GUI And Cterm Palettes:"{{{
 " ----------------------------------------------------------------------------
-if has("gui_running")
+if has("gui_running") || (has('termguicolors') && &termguicolors)
+	"check true color
   let s:vmode      = "gui"
 	let s:white      = "#c6c6c6"
 	let s:background = "#002b30"
@@ -186,19 +187,20 @@ exe "let s:fg_addfg      = ' ".s:vmode."fg = ".s:addfg     ."'"
 exe "let s:fg_changebg   = ' ".s:vmode."fg = ".s:changebg  ."'"
 exe "let s:fg_changefg   = ' ".s:vmode."fg = ".s:changefg  ."'"
 
-exe "let s:fmt_none      = ' ".s:vmode."   = NONE".          " term = NONE"        ."'"
-exe "let s:fmt_bold      = ' ".s:vmode."   = NONE".s:b.      " term = NONE".s:b    ."'"
-exe "let s:fmt_bldi      = ' ".s:vmode."   = NONE".s:b.      " term = NONE".s:b    ."'"
-exe "let s:fmt_undr      = ' ".s:vmode."   = NONE".s:u.      " term = NONE".s:u    ."'"
-exe "let s:fmt_undb      = ' ".s:vmode."   = NONE".s:u.s:b.  " term = NONE".s:u.s:b."'"
-exe "let s:fmt_undi      = ' ".s:vmode."   = NONE".s:u.      " term = NONE".s:u    ."'"
-exe "let s:fmt_curl      = ' ".s:vmode."   = NONE".s:c.      " term = NONE".s:c    ."'"
-exe "let s:fmt_ital      = ' ".s:vmode."   = NONE".s:i.      " term = NONE".s:i    ."'"
-exe "let s:fmt_stnd      = ' ".s:vmode."   = NONE".s:s.      " term = NONE".s:s    ."'"
-exe "let s:fmt_revr      = ' ".s:vmode."   = NONE".s:r.      " term = NONE".s:r    ."'"
-exe "let s:fmt_revb      = ' ".s:vmode."   = NONE".s:r.s:b.  " term = NONE".s:r.s:b."'"
+exe "let s:fmt_none      = ' ".s:vmode."   = NONE".          " term = NONE".          " cterm = NONE"        "'"
+exe "let s:fmt_bold      = ' ".s:vmode."   = NONE".s:b.      " term = NONE".s:b.      " cterm = NONE".s:b    "'"
+exe "let s:fmt_bldi      = ' ".s:vmode."   = NONE".s:b.      " term = NONE".s:b.      " cterm = NONE".s:b    "'"
+exe "let s:fmt_undr      = ' ".s:vmode."   = NONE".s:u.      " term = NONE".s:u.      " cterm = NONE".s:u    "'"
+exe "let s:fmt_undb      = ' ".s:vmode."   = NONE".s:u.s:b.  " term = NONE".s:u.s:b.  " cterm = NONE".s:u.s:b"'"
+exe "let s:fmt_undi      = ' ".s:vmode."   = NONE".s:u.      " term = NONE".s:u.      " cterm = NONE".s:u    "'"
+exe "let s:fmt_curl      = ' ".s:vmode."   = NONE".s:c.      " term = NONE".s:c.      " cterm = NONE".s:c    "'"
+exe "let s:fmt_ital      = ' ".s:vmode."   = NONE".s:i.      " term = NONE".s:i.      " cterm = NONE".s:i    "'"
+exe "let s:fmt_stnd      = ' ".s:vmode."   = NONE".s:s.      " term = NONE".s:s.      " cterm = NONE".s:s    "'"
+exe "let s:fmt_revr      = ' ".s:vmode."   = NONE".s:r.      " term = NONE".s:r.      " cterm = NONE".s:r    "'"
+exe "let s:fmt_revb      = ' ".s:vmode."   = NONE".s:r.s:b.  " term = NONE".s:r.s:b.  " cterm = NONE".s:r.s:b"'"
 
-if has("gui_running")
+
+if has("gui_running") || (has('termguicolors') && &termguicolors)
   exe "let s:sp_none       = ' guisp=".s:none      ."'"
   exe "let s:sp_foreground = ' guisp=".s:foreground."'"
   exe "let s:sp_background = ' guisp=".s:background."'"
