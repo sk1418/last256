@@ -76,7 +76,9 @@ let colors_name = "last256"
 "}}}
 " GUI And Cterm Palettes:"{{{
 " ----------------------------------------------------------------------------
-if has("gui_running") || (has('termguicolors') && &termguicolors)
+" if nvim-qt &term=nvim 
+let guiOrTrueColor = has("gui_running") || (has('termguicolors') && &termguicolors) || (&term == 'nvim')
+if guiOrTrueColor
 	"check true color
   let s:vmode      = "gui"
 	let s:white      = "#c6c6c6"
@@ -200,7 +202,7 @@ exe "let s:fmt_revr      = ' ".s:vmode."   = NONE".s:r.      " term = NONE".s:r.
 exe "let s:fmt_revb      = ' ".s:vmode."   = NONE".s:r.s:b.  " term = NONE".s:r.s:b.  " cterm = NONE".s:r.s:b"'"
 
 
-if has("gui_running") || (has('termguicolors') && &termguicolors)
+if guiOrTrueColor
   exe "let s:sp_none       = ' guisp=".s:none      ."'"
   exe "let s:sp_foreground = ' guisp=".s:foreground."'"
   exe "let s:sp_background = ' guisp=".s:background."'"
@@ -287,7 +289,7 @@ exe "hi! StatusLineNC"  .s:fg_window      .s:bg_comment     .s:fmt_revr
 exe "hi! WarningMsg"    .s:fg_red         .s:bg_none        .s:fmt_none
 "		WildMenu"
 
-if has('gui_running')
+if guiOrTrueColor
   exe "hi! Normal"        .s:fg_foreground  .s:bg_background  .s:fmt_none
 else
   exe "hi! Normal"        .s:fg_foreground  .s:bg_none        .s:fmt_none
